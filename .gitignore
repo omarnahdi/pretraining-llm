@@ -1,1 +1,82 @@
-data/preprocessed_dataset.parquet
+
+
+# Virtual Environments
+pretrain-venv/
+venv/
+env/
+ENV/
+.venv/
+
+# Jupyter Notebook checkpoints only (keep the .ipynb files)
+.ipynb_checkpoints/
+
+# Large data files (use releases for datasets)
+# Keep small config/sample data files
+*.parquet
+*.arrow
+*.feather
+*.h5
+*.hdf5
+# Large pickles and binaries
+*.pkl
+*.pickle
+
+# Model files and checkpoints (usually large)
+models/
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+checkpoints/
+saved_models/
+
+# Output and logs
+output/
+logs/
+*.log
+wandb/
+tensorboard/
+runs/
+
+# Environment variables and secrets
+.env
+.env.local
+.env.production
+.env.staging
+secrets.json
+config.json
+api_keys.txt
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Cache directories
+.cache/
+.pytest_cache/
+__pycache__/
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Large datasets and processed data
+processed_data/
+raw_data/
+datasets/
+corpus/
