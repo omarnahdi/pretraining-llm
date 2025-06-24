@@ -76,7 +76,5 @@ temp/
 tmp/
 
 # Large datasets and processed data
-processed_data/
-raw_data/
-datasets/
-corpus/
+data/
+*.parquet
